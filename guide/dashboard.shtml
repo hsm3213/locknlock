@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<title>LocknLock</title>	
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/guide.css">
+
+	<script src="js/guide.js"></script>
+</head>
+<body>
+	<div class="wrap">
+		<div class="project_name">
+			<p class="name">LocknLock</p>
+		</div>
+		<!-- <div class="head_tab">
+			<ul>
+				<li class="on"><button type="button">MO</button></li>
+				<li><button type="button">PC</button></li>
+			</ul>
+		</div> -->
+		<div class="container">
+			<!-- <div class="content mo on">
+				<div class="page_title">
+					<div class="title">페이지 리스트</div>
+					<button type="button" class="btn_link">guide 링크</button>
+				</div>
+				<div class="page_wrap">
+					<ul class="list_title">
+						<li class="depth01">1depth</li>
+						<li class="depth02">2depth</li>
+						<li class="state">진행상태</li>
+						<li class="view">페이지이동</li>
+						<li class="name">작업자</li>
+						<li class="date">완료일</li>
+						<li class="desc">descriptions</li>
+					</ul>
+					<ul class="list_page">
+						<li>
+							<div class="depth01">test</div>
+							<div class="depth02">test</div>
+							<div class="state">test</div>
+							<div class="view"><a href="#" target="_blank">test</a></div>
+							<div class="name">test</div>
+							<div class="date">test</div>
+							<div class="desc">test</div>
+						</li>
+						<li>
+							<div class="depth01">test</div>
+							<div class="depth02">test</div>
+							<div class="state">test</div>
+							<div class="view"><a href="#" target="_blank">test</a></div>
+							<div class="name">test</div>
+							<div class="date">test</div>
+							<div class="desc">test</div>
+						</li>
+					</ul>
+				</div>
+			</div> -->
+			<div class="content pc on">
+				<div class="page_title" style="margin-top:50px;">
+					<div class="title">페이지 리스트</div>
+					<a href="guide.shtml" class="btn_link">guide 링크</a>
+				</div>
+				<div class="page_wrap">
+					<ul class="list_title">
+						<li class="depth01">1depth</li>
+						<li class="depth02">2depth</li>
+						<li class="state">진행상태</li>
+						<li class="view">페이지이동</li>
+						<li class="name">작업자</li>
+						<li class="date">완료일</li>
+						<li class="desc">descriptions</li>
+					</ul>
+					<ul class="list_page">
+						<li>
+							<div class="depth01">메일</div>
+							<div class="depth02">최종접수 (mail01)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../mail/mail01.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-09-21</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">메일</div>
+							<div class="depth02">임시 비밀번호 (mail02)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../mail/mail02.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-09-21</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">에러페이지</div>
+							<div class="depth02">404 (JOB_PC_SB_Error_404)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_Error_404.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-31</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">에러페이지</div>
+							<div class="depth02">500 (JOB_PC_SB_Error_500)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_Error_500.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-31</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">에러페이지</div>
+							<div class="depth02">로그아웃 (JOB_PC_SB_logout)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_logout.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-31</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">메인</div>
+							<div class="depth02">(JOB_PC_MN_100)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_MN_100.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-22</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">메인 경량화</div>
+							<div class="depth02">(JOB_PC_MN_100_01)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_MN_100_01.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-09-05</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">임시비밀번호</div>
+							<div class="depth02">(JOB_PC_SB_101_password)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_101_password.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-18</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">채용공고</div>
+							<div class="depth02">(JOB_PC_SB_200)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_200.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-02</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">채용공고</div>
+							<div class="depth02">상세 (JOB_PC_SB_201)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_201.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-02</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">상시채용</div>
+							<div class="depth02">(JOB_PC_SB_210)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_210.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-02</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">상시채용</div>
+							<div class="depth02">상세 (JOB_PC_SB_211)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_211.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-02</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">입사지원</div>
+							<div class="depth02">개인정보 등록 및 이용동의 (JOB_PC_SB_220)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_220.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-04</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">입사지원</div>
+							<div class="depth02">일반 개인정보의 수집 및 이용에 대한 동의(팝업) (JOB_PC_SB_233)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_233.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-04</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">입사지원</div>
+							<div class="depth02">일반 개인정보의 필수적 제3자 제공에 대한 동의(팝업) (JOB_PC_SB_234)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_234.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-04</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">입사지원</div>
+							<div class="depth02">선택적 민감정보의 수집 및 이용에 대한 동의(팝업) (JOB_PC_SB_235)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_235.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-04</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">입사지원</div>
+							<div class="depth02">본인인증 (JOB_PC_SB_221)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_221.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-04</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">입사지원</div>
+							<div class="depth02">개인사항 (JOB_PC_SB_222)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_222.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-04</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">입사지원</div>
+							<div class="depth02">개인사항 우편번호 검색팝업 (JOB_PC_SB_223)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_223.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-04</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">입사지원</div>
+							<div class="depth02">학력사항 (JOB_PC_SB_224)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_224.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-04</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">입사지원</div>
+							<div class="depth02">학교 검색(팝업) (JOB_PC_SB_225)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_225.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-04</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">입사지원</div>
+							<div class="depth02">병력사항 (JOB_PC_SB_226)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_226.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-04</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">입사지원</div>
+							<div class="depth02">외국어/자격 (JOB_PC_SB_227)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_227.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-04</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">입사지원</div>
+							<div class="depth02">외국어/자격 자격증 검색 팝업 (JOB_PC_SB_228)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_228.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-04</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">입사지원</div>
+							<div class="depth02">경력사항 (JOB_PC_SB_229)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_229.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-04</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">입사지원</div>
+							<div class="depth02">사회활동 (JOB_PC_SB_230)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_230.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-04</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">입사지원</div>
+							<div class="depth02">자기소개 (JOB_PC_SB_231)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_231.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-04</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">입사지원</div>
+							<div class="depth02">작성완료 (JOB_PC_SB_232)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_232.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-04</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">채용문의</div>
+							<div class="depth02">FAQ (JOB_PC_SB_320)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_320.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-07</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">채용문의</div>
+							<div class="depth02">FAQ nodata (JOB_PC_SB_321)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_321.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-07</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">채용문의</div>
+							<div class="depth02">1:1문의 (JOB_PC_SB_323)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_323.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-07</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">지원현황</div>
+							<div class="depth02">나의 지원정보 (JOB_PC_SB_100)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_100.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-07</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">지원현황</div>
+							<div class="depth02">나의 지원정보 로그인 (JOB_PC_SB_100_login)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_100_login.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-07</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">지원현황</div>
+							<div class="depth02">합격자발표 (JOB_PC_SB_101)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_101.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-07</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">지원현황</div>
+							<div class="depth02">합격자발표 (JOB_PC_SB_101_complete)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_101_complete.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-07</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">지원현황</div>
+							<div class="depth02">합격자발표 (JOB_PC_SB_101_result)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_101_result.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-07</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">지원현황</div>
+							<div class="depth02">합격자발표 미리보기 (JOB_PC_SB_101_preview)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_101_preview.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-09-07</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">지원현황</div>
+							<div class="depth02">합격자발표 미리보기 (JOB_PC_SB_101_preview_01)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_101_preview_01.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-09-07</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">지원현황</div>
+							<div class="depth02">합격자발표 미리보기 (JOB_PC_SB_101_preview_02)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_101_preview_02.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-09-07</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">채용 프로세스</div>
+							<div class="depth02">신세계 (JOB_PC_SB_240_T1)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_240_T1.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-18</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">채용 프로세스</div>
+							<div class="depth02">이마트 (JOB_PC_SB_241_T1)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_241_T1.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-18</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">채용 프로세스</div>
+							<div class="depth02">신세계건설 (JOB_PC_SB_242_T1)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_242_T1.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-18</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">채용 프로세스</div>
+							<div class="depth02">신세계푸드 (JOB_PC_SB_243_T1)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_243_T1.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-18</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">채용 프로세스</div>
+							<div class="depth02">신세계인터내셔날 (JOB_PC_SB_244_T1)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_244_T1.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-18</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">채용 프로세스</div>
+							<div class="depth02">신세계아이엔씨 (JOB_PC_SB_245_T1)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_245_T1.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-18</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">채용 프로세스</div>
+							<div class="depth02">조선호텔앤리조트 (JOB_PC_SB_246_T1)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_246_T1.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-18</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">채용 프로세스</div>
+							<div class="depth02">스타벅스 (JOB_PC_SB_247_T1)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_247_T1.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-18</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">채용 프로세스</div>
+							<div class="depth02">신세계사이먼 (JOB_PC_SB_248_T1)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_248_T1.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-18</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">채용 프로세스</div>
+							<div class="depth02">이마트에브리데이 (JOB_PC_SB_249_T1)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_249_T1.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-18</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">채용 프로세스</div>
+							<div class="depth02">신세계엘앤비 (JOB_PC_SB_250_T1)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_250_T1.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-18</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">채용 프로세스</div>
+							<div class="depth02">신세계톰보이 (JOB_PC_SB_251_T1)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_251_T1.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-18</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">채용 프로세스</div>
+							<div class="depth02">신세계디에프 (JOB_PC_SB_252_T1)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_252_T1.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-18</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">채용 프로세스</div>
+							<div class="depth02">신세계라이브쇼핑 (JOB_PC_SB_253_T1)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_253_T1.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-18</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">채용 프로세스</div>
+							<div class="depth02">신세계프라퍼티 (JOB_PC_SB_254_T1)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_254_T1.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-18</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">채용 프로세스</div>
+							<div class="depth02">이마트24 (JOB_PC_SB_255_T1)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_255_T1.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-18</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">채용 프로세스</div>
+							<div class="depth02">SSG.COM (JOB_PC_SB_257_T1)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_257_T1.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-18</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">채용 프로세스</div>
+							<div class="depth02">신세계센트럴시티 (JOB_PC_SB_258_T1)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_258_T1.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-18</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">회사소개</div>
+							<div class="depth02">신세계 (JOB_PC_SB_300)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_300.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-24</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">회사소개</div>
+							<div class="depth02">이마트 (JOB_PC_SB_301)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_301.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-24</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">회사소개</div>
+							<div class="depth02">신세계건설 (JOB_PC_SB_302)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_302.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-24</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">회사소개</div>
+							<div class="depth02">신세계푸드 (JOB_PC_SB_303)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_303.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-24</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">회사소개</div>
+							<div class="depth02">신세계인터내셔날 (JOB_PC_SB_304)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_304.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-24</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">회사소개</div>
+							<div class="depth02">신세계아이앤씨 (JOB_PC_SB_305)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_305.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-24</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">회사소개</div>
+							<div class="depth02">조선호텔리조트 (JOB_PC_SB_306)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_306.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-24</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">회사소개</div>
+							<div class="depth02">스타벅스 (JOB_PC_SB_307)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_307.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-24</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">회사소개</div>
+							<div class="depth02">신세계사이먼 (JOB_PC_SB_308)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_308.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-24</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">회사소개</div>
+							<div class="depth02">이마트에브리데이 (JOB_PC_SB_309)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_309.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-24</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">회사소개</div>
+							<div class="depth02">신세계엘앤비 (JOB_PC_SB_310)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_310.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-24</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">회사소개</div>
+							<div class="depth02">신세계톰보이 (JOB_PC_SB_311)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_311.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-24</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">회사소개</div>
+							<div class="depth02">신세계디에프 (JOB_PC_SB_312)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_312.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-24</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">회사소개</div>
+							<div class="depth02">신세계라이브쇼핑 (JOB_PC_SB_313)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_313.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-24</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">회사소개</div>
+							<div class="depth02">신세계프라퍼티 (JOB_PC_SB_314)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_314.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-24</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">회사소개</div>
+							<div class="depth02">이마트24 (JOB_PC_SB_315)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_315.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-24</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">회사소개</div>
+							<div class="depth02">신세계까사 (JOB_PC_SB_316)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_316.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-24</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">회사소개</div>
+							<div class="depth02">SSG.COM (JOB_PC_SB_317)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_317.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-24</div>
+							<div class="desc">-</div>
+						</li>
+						<li>
+							<div class="depth01">회사소개</div>
+							<div class="depth02">신세계센트럴시티 (JOB_PC_SB_318)</div>
+							<div class="state">완료</div>
+							<div class="view"><a href="../JOB_PC_SB_318.html" target="_blank">페이지 링크</a></div>
+							<div class="name">홍순민</div>
+							<div class="date">2023-08-24</div>
+							<div class="desc">-</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>
+		tabContent();
+	</script>
+</body>
+</html>

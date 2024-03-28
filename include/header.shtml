@@ -1,0 +1,16 @@
+<header id="header" class="lnl_header">
+	<div class="h_inner">
+		<h1 class="lnl_logo"><a href="#">LocknLock 로고</a></h1>
+		<div class="h_search">
+			<input type="text" class="h_ipt" placeholder="4,500여개 다양한 상품 검색">
+			<button type="button" class="ico_l_srch">검색 아이콘</button>
+		</div>
+		<div class="h_button">
+			<ul>
+				<li><a href="#">로그인</a></li>
+				<li><a href="#">회원가입</a></li>
+				<li><a href="#">장바구니<span class="count">7</span></a></li>
+			</ul>
+		</div>
+	</div>
+</header>

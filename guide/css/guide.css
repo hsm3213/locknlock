@@ -1,0 +1,31 @@
+.project_name{display:flex;justify-content:space-between;align-items:center;width:100%;height:50px;padding:0 30px;background:#000;color:#fff;}
+
+.head_tab{display:flex;justify-content:center;align-items:center;width:100%;margin-top:20px;}
+.head_tab ul{display:flex;}
+.head_tab ul li button{display:block;width:100px;height:40px;border:1px solid #000;border-radius:10px;}
+.head_tab ul li.on button{background:#000;color:#fff;}
+
+.content{display:none;}
+.content.on{display:block;}
+.cont{max-width:360px;margin:0 auto;}
+
+.page_title{display:flex;justify-content:space-between;align-items:center;width:100%;padding:0 30px;}
+.page_title .title{font-size:26px;}
+.page_title .btn_link{display:flex;justify-content:center;align-items:center;background:#000;color:#fff;border-radius:10px;padding:5px 10px;}
+
+.page_wrap{margin-top:50px;}
+.page_wrap .list_title{display:grid;grid-template-columns:max(5%, 200px) 30% max(5%, 200px) max(5%, 200px) max(5%, 200px) max(5%, 200px) auto;place-items:center;height:40px;border-top:1px solid #000;text-align:center;}
+.page_wrap .list_title li:not(:first-of-type){display:flex;align-items:center;justify-content:center;width:100%;height:100%;border-left:1px solid #ddd;}
+.page_wrap .list_page{border-top:1px solid #aaa;}
+.page_wrap .list_page li{display:grid;grid-template-columns:max(5%, 200px) 30% max(5%, 200px) max(5%, 200px) max(5%, 200px) max(5%, 200px) auto;height:40px;place-items:center left;}
+.page_wrap .list_page li div{display:flex;width:100%;height:100%;align-items:center;padding:0 20px;}
+.page_wrap .list_page li div:not(:first-of-type){border-left:1px solid #ddd;}
+.page_wrap .list_page li div.state{justify-content:center;}
+.page_wrap .list_page li div.view{justify-content:center;}
+.page_wrap .list_page li div.view a{color:blue;text-align:center;text-decoration:underline;}
+.page_wrap .list_page li div.name{justify-content:center;}
+.page_wrap .list_page li div.date{justify-content:center;}
+.page_wrap .list_page li:not(:first-of-type){border-top:1px solid #ddd;}
+.page_wrap .list_page li:last-of-type{border-bottom:1px solid #ddd;}
+
+.guide_icon{display:flex;flex-wrap:wrap;}

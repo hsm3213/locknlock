@@ -1,0 +1,4 @@
+<div class="floating_area">
+	<button type="button" class="chat">채팅 아이콘</button>
+	<button type="button" class="top">탑 아이콘</button>
+</div>

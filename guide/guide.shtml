@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="../common/css/common.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/guide.css">
+	<!-- <script src="../../common/js/jquery.3.6.0.js"></script> -->
+	<!-- <script src="../../common/js/jquery-ui.min.js"></script> -->
+	<script src="../common/js/main.js"></script>
+</head>
+<body>
+
+	<div class="guide_container">
+		<div class="guide_content">
+			<div class="page_title" style="margin-top:50px;">
+				<div class="title">퍼블 가이드</div>
+				<a href="dashboard.shtml" class="btn_link">dashboard 링크</a>
+			</div>
+			<!-- 아이콘 -->
+			<div class="guide_icon_wrap">
+				<img src="../img/test.png" alt="">
+				<div class="title" style="margin-top:50px;">12 x 12 icon</div>
+				<div class="guide_icon">
+					<span class="ico_s_arr_l">화살표 왼쪽 아이콘</span>
+					<span class="ico_s_arr_r">화살표 오른쪽 아이콘</span>
+					<span class="ico_s_arr_d">화살표 밑 아이콘</span>
+					<span class="ico_s_arr_u">화살표 위 아이콘</span>
+					<span class="ico_s_notchange">- 아이콘</span>
+					<span class="ico_s_up">up 아이콘</span>
+					<span class="ico_s_down">down 아이콘</span>
+					<span class="ico_s_plus">+ 아이콘</span>
+					<span class="ico_s_minus">- 아이콘</span>
+				</div>
+				<div class="title" style="margin-top:50px;">16 x 16 icon</div>
+				<div class="guide_icon">
+					<span class="ico_arr_l">화살표 왼쪽 아이콘</span>
+					<span class="ico_arr_r">화살표 오른쪽 아이콘</span>
+					<span class="ico_arr_d">화살표 밑 아이콘</span>
+					<span class="ico_arr_u">화살표 위 아이콘</span>
+					<span class="ico_plus">+ 아이콘</span>
+					<span class="ico_minus">- 아이콘</span>
+					<span class="ico_close">x버튼 아이콘</span>
+					<span class="ico_refresh">새로고침 아이콘</span>
+					<span class="ico_close02">x버튼 아이콘</span>
+					<span class="ico_srch">검색 아이콘</span>
+					<span class="ico_heart">하트 아이콘</span>
+					<span class="ico_cart">장바구니 아이콘</span>
+					<span class="ico_star01">별 아이콘</span>
+					<span class="ico_star02">별 아이콘</span>
+					<span class="ico_star03">별 아이콘</span>
+					<span class="ico_good">엄지 아이콘</span>
+					<span class="ico_facebook">페이스북 아이콘</span>
+					<span class="ico_google">구글 아이콘</span>
+					<span class="ico_check">체크 아이콘</span>
+					<span class="ico_home">홈 아이콘</span>
+					<span class="ico_alarm">알람 아이콘</span>
+				</div>
+				<div class="title" style="margin-top:50px;">24 x 24 icon</div>
+				<div class="guide_icon">
+					<span class="ico_l_logo">로고 아이콘</span>
+					<span class="ico_l_arr_l">화살표 왼쪽 아이콘</span>
+					<span class="ico_l_arr_r">화살표 오른쪽 아이콘</span>
+					<span class="ico_l_arr_d">화살표 밑 아이콘</span>
+					<span class="ico_l_arr_u">화살표 위 아이콘</span>
+					<span class="ico_l_prevAll">맨 처음 아이콘</span>
+					<span class="ico_l_prev">이전 아이콘</span>
+					<span class="ico_l_next">다음 아이콘</span>
+					<span class="ico_l_nextAll">맨 뒤로 아이콘</span>
+					<span class="ico_l_open">화살표 아래 아이콘</span>
+					<span class="ico_l_close">X 아이콘</span>
+					<span class="ico_l_plus">+ 아이콘</span>
+					<span class="ico_l_close02">X 아이콘</span>
+					<span class="ico_l_menu">메뉴 아이콘</span>
+					<span class="ico_l_top">top 아이콘</span>
+					<span class="ico_l_back">뒤로가기 아이콘</span>
+					<span class="ico_l_srch">검색 아이콘</span>
+					<span class="ico_l_srch02">검색 활성화 아이콘</span>
+					<span class="ico_l_home">홈 아이콘</span>
+					<span class="ico_l_home02">홈 활성화 아이콘</span>
+					<span class="ico_l_recent">최근 본 아이콘</span>
+					<span class="ico_l_recent02">최근 본 활성화 아이콘</span>
+					<span class="ico_l_my">마이페이지 아이콘</span>
+					<span class="ico_l_my02">마이페이지 활성화 아이콘</span>
+					<span class="ico_l_heart">하트 아이콘</span>
+					<span class="ico_l_heart02">하트 아이콘</span>
+					<span class="ico_l_share">공유 아이콘</span>
+					<span class="ico_l_star">별 아이콘</span>
+					<span class="ico_l_star02">별 아이콘</span>
+					<span class="ico_l_star03">별 아이콘</span>
+					<span class="ico_l_location">위치 아이콘</span>
+					<span class="ico_l_gift">선물 아이콘</span>
+					<span class="ico_l_coupon">쿠폰 아이콘</span>
+					<span class="ico_l_store">store 아이콘</span>
+					<span class="ico_l_office">office 아이콘</span>
+					<span class="ico_l_call">call 아이콘</span>
+					<span class="ico_l_setting">setting 아이콘</span>
+					<!-- 알람 아이콘 자리 -->
+					<span class="ico_l_truck">트럭 아이콘</span>
+					<span class="ico_l_chat">메신저 아이콘</span>
+					<span class="ico_l_eye">눈 아이콘</span>
+					<span class="ico_l_eye02">눈 아이콘</span>
+					<span class="ico_l_calendar">달력 아이콘</span>
+					<span class="ico_l_back02">달력 아이콘</span>
+				</div>
+				<div class="guide_icon">
+					<span class="ico_l_heart03">하트 아이콘</span>
+					<span class="ico_l_heart04">하트 아이콘</span>
+					<span class="ico_l_cart">장바구니 아이콘</span>
+					<span class="ico_l_cart02">장바구니 아이콘</span>
+					<span class="ico_l_time">모래시계 아이콘</span>
+					<span class="ico_l_bottle">bottle 아이콘</span>
+					<span class="ico_l_storage">storage 아이콘</span>
+					<span class="ico_l_electronic">전자제품 아이콘</span>
+					<span class="ico_l_spoon">수저 아이콘</span>
+					<span class="ico_l_cleanser">cleanser 아이콘</span>
+				</div>
+				<div class="guide_icon">
+					<span class="ico_l_facebook">facebook 아이콘</span>
+					<span class="ico_l_insta">instagram 아이콘</span>
+					<span class="ico_l_youtube">youtube 아이콘</span>
+					<span class="ico_l_tiktok">tiktok 아이콘</span>
+				</div>
+				<div class="title" style="margin-top:50px;">32 x 32 icon</div>
+				<div class="guide_icon">
+					<span class="ico_xl_srch">검색 아이콘</span>
+					<span class="ico_xl_menu">메뉴 아이콘</span>
+					<span class="ico_xl_close">닫기 아이콘</span>
+					<span class="ico_xl_my">마이페이지 아이콘</span>
+					<span class="ico_xl_location">위치 아이콘</span>
+					<span class="ico_xl_logo">logo 아이콘</span>
+					<span class="ico_xl_store">store 아이콘</span>
+					<span class="ico_xl_coupon">coupon 아이콘</span>
+					<span class="ico_xl_gift">gift 아이콘</span>
+					<span class="ico_xl_call">call 아이콘</span>
+					<span class="ico_xl_office">office 아이콘</span>
+					<span class="ico_xl_top">top 아이콘</span>
+					<span class="ico_xl_livechat">livechat 아이콘</span>
+				</div>
+			</div>
+
+			<!-- 라디오 -->
+			<div class="title" style="margin-top:50px;">라디오</div>
+			<div class="ipt_form">
+				<div class="ipt_rdo">
+					<input type="radio" id="ipt_rdo01" name="ipt_rdo01" disabled>
+					<label for="ipt_rdo01"><span></span>텍스트</label>
+				</div>
+				<div class="ipt_rdo">
+					<input type="radio" id="ipt_rdo02" name="ipt_rdo01">
+					<label for="ipt_rdo02"><span></span>텍스트</label>
+				</div>
+				<div class="ipt_rdo">
+					<input type="radio" id="ipt_rdo03" name="ipt_rdo01" checked>
+					<label for="ipt_rdo03"><span></span>텍스트</label>
+				</div>
+				<div class="ipt_rdo">
+					<input type="radio" id="ipt_rdo04" name="ipt_rdo02" checked disabled>
+					<label for="ipt_rdo04"><span></span>텍스트</label>
+				</div>
+				<div class="ipt_rdo notxt">
+					<input type="radio" id="ipt_rdo05" name="ipt_rdo03" disabled>
+					<label for="ipt_rdo05"><span></span></label>
+				</div>
+				<div class="ipt_rdo notxt">
+					<input type="radio" id="ipt_rdo06" name="ipt_rdo03">
+					<label for="ipt_rdo06"><span></span></label>
+				</div>
+				<div class="ipt_rdo notxt">
+					<input type="radio" id="ipt_rdo07" name="ipt_rdo03" checked>
+					<label for="ipt_rdo07"><span></span></label>
+				</div>
+				<div class="ipt_rdo notxt">
+					<input type="radio" id="ipt_rdo08" name="ipt_rdo04" checked disabled>
+					<label for="ipt_rdo08"><span></span></label>
+				</div>
+			</div>
+
+			<!-- 체크박스 -->
+			<div class="title" style="margin-top:50px;">체크박스</div>
+			<div class="ipt_form">
+				<div class="ipt_chk">
+					<input type="checkbox" id="ipt_chk01" disabled>
+					<label for="ipt_chk01"><span></span>텍스트</label>
+				</div>
+				<div class="ipt_chk">
+					<input type="checkbox" id="ipt_chk02">
+					<label for="ipt_chk02"><span></span>텍스트</label>
+				</div>
+				<div class="ipt_chk">
+					<input type="checkbox" id="ipt_chk03" checked>
+					<label for="ipt_chk03"><span></span>텍스트</label>
+				</div>
+				<div class="ipt_chk">
+					<input type="checkbox" id="ipt_chk04" checked disabled>
+					<label for="ipt_chk04"><span></span>텍스트</label>
+				</div>
+				<div class="ipt_chk notxt">
+					<input type="checkbox" id="ipt_chk05" disabled>
+					<label for="ipt_chk05"><span></span></label>
+				</div>
+				<div class="ipt_chk notxt">
+					<input type="checkbox" id="ipt_chk06">
+					<label for="ipt_chk06"><span></span></label>
+				</div>
+				<div class="ipt_chk notxt">
+					<input type="checkbox" id="ipt_chk07" checked>
+					<label for="ipt_chk07"><span></span></label>
+				</div>
+				<div class="ipt_chk notxt">
+					<input type="checkbox" id="ipt_chk08" checked disabled>
+					<label for="ipt_chk08"><span></span></label>
+				</div>
+			</div>
+
+			<!-- 인풋 텍스트 -->
+			<div class="title" style="margin-top:50px;">인풋 텍스트</div>
+			<div class="ipt_box">
+				<div class="ipt_text">
+					<input type="text" class="ipt_txt" placeholder="플레이스 홀더">
+				</div>
+				<div class="ipt_text">
+					<input type="text" class="ipt_txt" placeholder="플레이스 홀더" disabled>
+				</div>
+				<div class="ipt_text error">
+					<input type="text" class="ipt_txt" placeholder="플레이스 홀더">
+					<div class="box_txt">
+						<div class="txt_error">오류 메시지 노출</div>
+					</div>
+				</div>
+				<div class="ipt_text">
+					<input type="text" class="ipt_txt" placeholder="플레이스 홀더">
+					<div class="box_txt">
+						<div class="txt_chk"><span class="ico_check">체크 아이콘</span>메시지 노출</div>
+						<div class="txt_chk"><span class="ico_check">체크 아이콘</span>메시지 노출</div>
+					</div>
+				</div>
+				<div class="title" style="margin-top:50px;">인풋 텍스트 쇼 하이드</div>
+				<div class="ipt_text eye">
+					<input type="text" class="ipt_txt" placeholder="플레이스 홀더">
+					<div class="btn_eye">
+						<button type="button" class="ico_l_eye">눈 아이콘</button>
+					</div>
+				</div>
+				<div class="ipt_text eye">
+					<input type="text" class="ipt_txt" placeholder="플레이스 홀더" disabled>
+					<div class="btn_eye">
+						<button type="button" class="ico_l_eye">눈 아이콘</button>
+					</div>
+				</div>
+				<div class="ipt_text eye error">
+					<input type="text" class="ipt_txt" placeholder="플레이스 홀더">
+					<div class="btn_eye">
+						<button type="button" class="ico_l_eye">눈 아이콘</button>
+					</div>
+					<div class="box_txt">
+						<div class="txt_error">오류 메시지 노출</div>
+					</div>
+				</div>
+				<div class="ipt_text eye">
+					<input type="text" class="ipt_txt" placeholder="플레이스 홀더">
+					<div class="btn_eye">
+						<button type="button" class="ico_l_eye">눈 아이콘</button>
+					</div>
+					<div class="box_txt">
+						<div class="txt_chk"><span class="ico_check">체크 아이콘</span>메시지 노출</div>
+						<div class="txt_chk"><span class="ico_check">체크 아이콘</span>메시지 노출</div>
+					</div>
+				</div>
+				<div class="title" style="margin-top:50px;">인풋 텍스트 타이머</div>
+				<div class="ipt_text time">
+					<input type="text" class="ipt_txt" placeholder="플레이스 홀더">
+					<span class="timer">02:59</span>
+				</div>
+			</div>
+
+			<!-- 셀렉트 박스 -->
+			<div class="title" style="margin-top:50px;">셀렉트 박스</div>
+			<div class="box_select">
+				<div class="select">
+					<div class="selected_area">
+						<button type="button" class="btn_select" role="button" aria-haspopup="false" aria-expanded="false">플레이스 홀더</button>
+						<span class="ico_s_arr_d">화살표 밑 아이콘</span>
+					</div>
+					<ul class="list_select" role="listbox">
+						<li role="option" aria-selected="false">활성옵션</li>
+						<li role="option" aria-selected="false">활성옵션</li>
+						<li role="option" aria-selected="false">활성옵션</li>
+						<li role="option" aria-selected="false">활성옵션</li>
+						<li role="option" aria-selected="false">활성옵션</li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="title">에러 메세지</div>
+			<div class="box_select">
+				<div class="select error">
+					<div class="selected_area">
+						<button type="button" class="btn_select" role="button" aria-haspopup="false" aria-expanded="false">플레이스 홀더</button>
+						<span class="ico_s_arr_d">화살표 밑 아이콘</span>
+					</div>
+					<ul class="list_select" role="listbox">
+						<li role="option" aria-selected="false">활성옵션</li>
+						<li role="option" aria-selected="false">활성옵션</li>
+						<li role="option" aria-selected="false">활성옵션</li>
+						<li role="option" aria-selected="false">활성옵션</li>
+						<li role="option" aria-selected="false">활성옵션</li>
+					</ul>
+					<div class="txt_error">오류 메시지 노출</div>
+				</div>
+			</div>
+			
+			<div class="title">비활성</div>
+			<div class="box_select">
+				<div class="select">
+					<div class="selected_area">
+						<button type="button" class="btn_select" role="button" aria-haspopup="false" aria-expanded="false" disabled>플레이스 홀더</button>
+						<span class="ico_s_arr_d">화살표 밑 아이콘</span>
+					</div>
+					<ul class="list_select" role="listbox">
+						<li role="option" aria-selected="false">활성옵션</li>
+						<li role="option" aria-selected="false">활성옵션</li>
+						<li role="option" aria-selected="false">활성옵션</li>
+						<li role="option" aria-selected="false">활성옵션</li>
+						<li role="option" aria-selected="false">활성옵션</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="title" style="margin-top:50px;">셀렉트 박스 type02</div>
+			<div class="box_select" style="display:flex;justify-content:flex-end;">
+				<div class="select type02">
+					<div class="selected_area">
+						<button type="button" class="btn_select" role="button" aria-haspopup="false" aria-expanded="false">플레이스 홀더</button>
+						<span class="ico_s_down">down 아이콘</span>
+					</div>
+					<ul class="list_select" role="listbox">
+						<li role="option" aria-selected="false">활성옵션</li>
+						<li role="option" aria-selected="false">활성옵션</li>
+						<li role="option" aria-selected="false">활성옵션</li>
+						<li role="option" aria-selected="false">활성옵션</li>
+						<li role="option" aria-selected="false">활성옵션</li>
+					</ul>
+				</div>
+			</div>
+
+			<!-- 버튼 -->
+			<div class="title" style="margin-top:50px;">버튼</div>
+			<div class="btn_area">
+				<button type="button" class="btn_basic s">Button</button>
+				<button type="button" class="btn_basic">Button</button>
+				<button type="button" class="btn_basic l">Button</button>
+				<button type="button" class="btn_basic xl" disabled>Button</button>
+				<button type="button" class="btn_basic icon"><span class="ico_plus">+ 아이콘</span>Button</button>
+				<button type="button" class="btn_basic icon l"><span class="ico_plus">+ 아이콘</span>Button</button>
+				<button type="button" class="btn_basic icon xl" disabled><span class="ico_plus">+ 아이콘</span>Button</button>
+				<button type="button" class="btn_basic icon_only"><span class="ico_plus">+ 아이콘</span></button>
+				<button type="button" class="btn_basic icon_only l"><span class="ico_plus">+ 아이콘</span></button>
+				<button type="button" class="btn_basic icon_only xl" disabled><span class="ico_plus">+ 아이콘</span></button>
+			</div>
+
+			<div class="btn_area">
+				<button type="button" class="btn_basic col02 s">Button</button>
+				<button type="button" class="btn_basic col02">Button</button>
+				<button type="button" class="btn_basic col02 l">Button</button>
+				<button type="button" class="btn_basic col02 xl" disabled>Button</button>
+				<button type="button" class="btn_basic col02 icon"><span class="ico_plus">+ 아이콘</span>Button</button>
+				<button type="button" class="btn_basic col02 icon l"><span class="ico_plus">+ 아이콘</span>Button</button>
+				<button type="button" class="btn_basic col02 icon xl" disabled><span class="ico_plus">+ 아이콘</span>Button</button>
+				<button type="button" class="btn_basic col02 icon_only"><span class="ico_plus">+ 아이콘</span></button>
+				<button type="button" class="btn_basic col02 icon_only l"><span class="ico_plus">+ 아이콘</span></button>
+				<button type="button" class="btn_basic col02 icon_only xl" disabled><span class="ico_plus">+ 아이콘</span></button>
+			</div>
+
+			<div class="btn_area">
+				<button type="button" class="btn_basic col03 s">Button</button>
+				<button type="button" class="btn_basic col03">Button</button>
+				<button type="button" class="btn_basic col03 l">Button</button>
+				<button type="button" class="btn_basic col03 xl" disabled>Button</button>
+				<button type="button" class="btn_basic col03 icon"><span class="ico_plus">+ 아이콘</span>Button</button>
+				<button type="button" class="btn_basic col03 icon l"><span class="ico_plus">+ 아이콘</span>Button</button>
+				<button type="button" class="btn_basic col03 icon xl" disabled><span class="ico_plus">+ 아이콘</span>Button</button>
+				<button type="button" class="btn_basic col03 icon_only"><span class="ico_plus">+ 아이콘</span></button>
+				<button type="button" class="btn_basic col03 icon_only l"><span class="ico_plus">+ 아이콘</span></button>
+				<button type="button" class="btn_basic col03 icon_only xl" disabled><span class="ico_plus">+ 아이콘</span></button>
+			</div>
+
+			<div class="btn_area">
+				<button type="button" class="btn_basic col04 s">Button</button>
+				<button type="button" class="btn_basic col04">Button</button>
+				<button type="button" class="btn_basic col04 l">Button</button>
+				<button type="button" class="btn_basic col04 xl" disabled>Button</button>
+				<button type="button" class="btn_basic col04 icon"><span class="ico_plus">+ 아이콘</span>Button</button>
+				<button type="button" class="btn_basic col04 icon l"><span class="ico_plus">+ 아이콘</span>Button</button>
+				<button type="button" class="btn_basic col04 icon xl" disabled><span class="ico_plus">+ 아이콘</span>Button</button>
+				<button type="button" class="btn_basic col04 icon_only"><span class="ico_plus">+ 아이콘</span></button>
+				<button type="button" class="btn_basic col04 icon_only l"><span class="ico_plus">+ 아이콘</span></button>
+				<button type="button" class="btn_basic col04 icon_only xl" disabled><span class="ico_plus">+ 아이콘</span></button>
+			</div>
+
+			<!-- 텍스트 버튼 -->
+			<div class="title" style="margin-top:50px;">텍스트 버튼</div>
+			<div class="btn_area">
+				<button type="button" class="btn_text">할인내역</button>
+				<button type="button" class="btn_text col02">할인내역</button>
+			</div>
+
+			<!-- 더보기 버튼 -->
+			<div class="title" style="margin-top:50px;">더보기 버튼</div>
+			<div class="btn_area">
+				<button type="button" class="btn_more">더보기<span class="ico_s_arr_r">화살표 오른쪽 아이콘</span></button>
+				<button type="button" class="btn_more type02">More<span class="ico_s_arr_d">화살표 밑 아이콘</span></button>
+			</div>
+
+			<!-- 정렬 버튼 -->
+			<div class="title" style="margin-top:50px;">정렬 버튼</div>
+			<div class="btn_area">
+				<button type="button" class="btn_sort">25개씩<span class="ico_s_down">down 아이콘</span></button>
+			</div>
+
+			<!-- 좋아요 버튼 -->
+			<div class="title" style="margin-top:50px;">좋아요 버튼</div>
+			<div class="btn_area">
+				<button type="button" class="btn_like"><span class="ico_good">엄지 아이콘</span>100</button>
+				<button type="button" class="btn_like type02"><span class="ico_good">엄지 아이콘</span>0</button>
+			</div>
+
+			<!-- 동영상 플레이 버튼 -->
+			<div class="title" style="margin-top:50px;">동영상 플레이 버튼</div>
+			<div class="btn_area">
+				<button type="button" class="btn_play">play</button>
+			</div>
+
+			<!-- 툴팁 -->
+			<div class="title" style="margin-top:50px;">툴팁</div>
+			<div class="group_tooltip">
+				<button type="button" class="btn_text btn_tooltip">할인내역</button>
+				<div class="box_tooltip">
+					<div class="text_area">
+						<div class="tit">타이틀 최대 가로사이즈 277px</div>
+						<div class="txt">텍스트 최대 가로사이즈 295px 이렇게 표현됩니다.</div>
+					</div>
+					<button type="button" class="ico_close02 btn_tooltip_close">x버튼 아이콘</button>
+				</div>
+			</div>
+			
+			<div class="group_tooltip">
+				<button type="button" class="btn_text btn_tooltip">할인내역</button>
+				<div class="box_tooltip nobtn">
+					<div class="text_area">
+						<div class="tit">타이틀 최대 가로사이즈 295px</div>
+						<div class="txt">텍스트 최대 가로사이즈 295px, 두줄이 넘어가는 경우는 이이이이이러어어엏게에에에에 표현됩니다.</div>
+					</div>
+				</div>
+			</div>
+
+			<script>
+				// function tooltip(target){
+				// 	target.closest('.group_tooltip').querySelector('.box_tooltip').classList.add('on');
+				// };
+
+				function tooltip(){
+					const btnTooltipAll = document.querySelectorAll('.btn_tooltip');
+					btnTooltipAll.forEach(function(btn){
+						btn.addEventListener('click', function(){
+							this.nextElementSibling.classList.add('on');
+							if(!(this.nextElementSibling.classList.contains('nobtn'))){
+								this.nextElementSibling.querySelector('.btn_tooltip_close').addEventListener('click', function(){
+									this.closest('.box_tooltip').classList.remove('on');
+								});
+							} else {
+								setTimeout(() => {
+									this.nextElementSibling.classList.remove('on');
+								}, 3000);
+							}
+						});
+					});
+				};
+				tooltip();
+			</script>
+
+			<!-- 탭 -->
+			<div class="tab" data-target="tab01">
+				<ul class="list_tab" role="tablist">
+					<li><button type="button" role="tab" aria-selected="true" aria-controls="tabpanel01">1111</button></li>
+					<li><button type="button" role="tab" aria-selected="false" aria-controls="tabpanel02">2222</button></li>
+					<li><button type="button" role="tab" aria-selected="false" aria-controls="tabpanel03">3333</button></li>
+					<li><button type="button" role="tab" aria-selected="false" aria-controls="tabpanel04">4444</button></li>
+				</ul>
+				<div class="cont_tab">
+					<div id="tabpanel01" class="box" role="tabpanel">1111</div>
+					<div id="tabpanel02" class="box" role="tabpanel" hidden>2222</div>
+					<div id="tabpanel03" class="box" role="tabpanel" hidden>3333</div>
+					<div id="tabpanel04" class="box" role="tabpanel" hidden>4444</div>
+				</div>
+			</div>
+
+			<!-- 토글 -->
+			<!-- <div class="toggle" data-target="toggle01" style="margin-top:50px;">
+				<ul class="list_toggle">
+					<li>
+						<div class="title" aria-expanded="true" aria-controls="toggleRegion01">1111</div>
+						<div id="toggleRegion01" class="cont" role="region">
+							<div>1111</div>
+						</div>
+					</li>
+					<li>
+						<div class="title" aria-expanded="false" aria-controls="toggleRegion02">2222</div>
+						<div id="toggleRegion02" class="cont" role="region">
+							<div>2222</div>
+						</div>
+					</li>
+					<li>
+						<div class="title" aria-expanded="false" aria-controls="toggleRegion03">3333</div>
+						<div id="toggleRegion03" class="cont" role="region">
+							<div>3333</div>
+						</div>
+					</li>
+				</ul>
+			</div> -->
+			
+			<!-- 아코디언 -->
+			<!-- <div class="accordion" data-target="acc01" style="margin-top:50px;">
+				<ul class="list_acc">
+					<li>
+						<div class="title" aria-expanded="true" aria-controls="accRegion01">1111</div>
+						<div id="accRegion01" class="cont" role="region">
+							<div>1111</div>
+						</div>
+					</li>
+					<li>
+						<div class="title" aria-expanded="false" aria-controls="accRegion02">2222</div>
+						<div id="accRegion02" class="cont" role="region">
+							<div>2222</div>
+						</div>
+					</li>
+					<li>
+						<div class="title" aria-expanded="false" aria-controls="accRegion03">3333</div>
+						<div id="accRegion03" class="cont" role="region">
+							<div>3333</div>
+						</div>
+					</li>
+				</ul>
+			</div> -->
+
+
+			<!-- textarea -->
+			<!-- <div class="title" style="margin-top:50px;">textarea</div>
+			<div class="textarea_box">
+				<label for="textarea01">
+					<textarea id="textarea01" class="textarea" role="textarea" placeholder="내용을 입력해주세요." onkeyup="inputByteChk(this, 800)"></textarea>
+					<div class="check_length">
+						<span class="now">0</span>/
+						<span class="total">800</span>
+					</div>
+				</label>
+			</div> -->
+
+			<!-- datepicker -->
+			<div class="title" style="margin-top:50px;">달력</div>
+			<div class="datepicker_wrap">
+				<label for="datepicker01" class="ipt_date">
+					<input type="text" id="datepicker01">
+				</label>
+			</div>
+
+			<!-- 팝업 -->
+			<div class="title" style="margin-top:50px">팝업</div>
+			<button type="button" class="btn_pop" role="button" aria-haspopup="dialog" data-popup="popup01">900 팝업</button>
+			<div id="popup01" class="popup" role="dialog">
+				<div class="p_inner">
+					<div class="p_title" tabindex="0">
+						<div class="tit">타이틀</div>
+					</div>
+					<div class="p_cont">
+						1111
+						1111
+						1111
+						1111
+						1111
+						1111
+						1111
+						1111
+						1111
+						1111
+						1111
+						1111
+						1111
+						1111
+						1111
+						1111
+					</div>
+					<div class="p_close">
+						<button type="button" class="ico_l_close02">X 아이콘</button>
+					</div>
+					<div class="btn_area col02">
+						<button type="button" class="btn_basic col03">취소</button>
+						<button type="button" class="btn_basic col02">신청하기</button>
+					</div>
+				</div>
+			</div>
+			<script>
+				popup('popup01');
+			</script>
+			
+			<div class="title" style="margin-top:50px">594 팝업</div>
+			<button type="button" class="btn_pop" role="button" aria-haspopup="dialog" data-popup="popup02">594 팝업</button>
+			<div id="popup02" class="popup mid" role="dialog">
+				<div class="p_inner">
+					<div class="p_title" tabindex="0">
+						<div class="tit">타이틀</div>
+					</div>
+					<div class="p_cont">
+						1111
+						1111
+						1111
+						1111
+						1111
+						1111
+						1111
+						1111
+						1111
+						1111
+						1111
+						1111
+						1111
+						1111
+						1111
+						1111
+					</div>
+					<div class="p_close">
+						<button type="button" class="ico_l_close02">X 아이콘</button>
+					</div>
+					<div class="btn_area col02">
+						<button type="button" class="btn_basic col03">취소</button>
+						<button type="button" class="btn_basic col02">신청하기</button>
+					</div>
+				</div>
+			</div>
+			<script>
+				popup('popup02');
+			</script>
+			
+			<div class="title" style="margin-top:50px">594 팝업 noline nobtn</div>
+			<button type="button" class="btn_pop" role="button" aria-haspopup="dialog" data-popup="popup03">594 팝업</button>
+			<div id="popup03" class="popup mid noline nobtn" role="dialog">
+				<div class="p_inner">
+					<div class="p_title" tabindex="0">
+						<div class="tit">Please <span>reset the password</span> <br>to protect your privacy</div>
+					</div>
+					<div class="p_cont">
+						1111
+						1111
+						1111
+						1111
+						1111
+						1111
+						1111
+						1111
+						1111
+						1111
+						1111
+						1111
+						1111
+						1111
+						1111
+						1111
+					</div>
+					<div class="btn_area col02">
+						<button type="button" class="btn_basic col03">Modify</button>
+						<button type="button" class="btn_basic col02">Reset after 90 days</button>
+					</div>
+				</div>
+			</div>
+			<script>
+				popup('popup03');
+			</script>
+			
+			<div class="title">440 팝업</div>
+			<button type="button" class="btn_pop" role="button" aria-haspopup="dialog" data-popup="popup04">440 팝업</button>
+			<div id="popup04" class="popup small" role="dialog">
+				<div class="p_inner">
+					<div class="p_title" tabindex="0">
+						<div class="tit">타이틀</div>
+					</div>
+					<div class="p_cont">
+						1111
+						1111
+						1111
+						1111
+						1111
+						1111
+					</div>
+					<div class="p_close">
+						<button type="button" class="ico_l_close02">X 아이콘</button>
+					</div>
+					<div class="btn_area col02">
+						<button type="button" class="btn_basic col03">취소</button>
+						<button type="button" class="btn_basic col02">신청하기</button>
+					</div>
+				</div>
+			</div>
+			<script>
+				popup('popup04');
+			</script>
+			
+			<div class="title">440 팝업</div>
+			<button type="button" class="btn_pop" role="button" aria-haspopup="dialog" data-popup="popup05">440 팝업</button>
+			<div id="popup05" class="popup small noline" role="dialog">
+				<div class="p_inner">
+					<div class="p_title" tabindex="0">
+						<div class="tit">타이틀</div>
+					</div>
+					<div class="p_cont">
+						1111
+						1111
+						1111
+						1111
+						1111
+						1111
+					</div>
+					<div class="p_close">
+						<button type="button" class="ico_l_close02">X 아이콘</button>
+					</div>
+					<div class="btn_area col02">
+						<button type="button" class="btn_basic col03">취소</button>
+						<button type="button" class="btn_basic col02">신청하기</button>
+					</div>
+				</div>
+			</div>
+			<script>
+				popup('popup05');
+			</script>
+
+			<!-- 팝업 -->
+			<div class="title" style="margin-top:50px">alert 팝업</div>
+			<button type="button" class="btn_pop" role="button" aria-haspopup="dialog" data-popup="popup06">alert 팝업</button>
+			<div id="popup06" class="popup alert" role="dialog">
+				<div class="p_inner">
+					<div class="p_cont">
+						<p class="txt">We've sent your ID to your email. <br>Please check your mailbox.</p>
+					</div>
+					<div class="btn_area">
+						<button type="button" class="btn_basic col02">Confirm</button>
+					</div>
+				</div>
+			</div>
+			<script>
+				popup('popup06');
+			</script>
+		</div>
+	</div>
+</body>
+<script>
+	iptTextHide();
+	selectBox();
+	likeCount();
+	tabContent();
+</script>
+</html>

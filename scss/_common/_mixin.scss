@@ -1,0 +1,77 @@
+// **********************************************************
+// 폰트
+// **********************************************************
+@mixin font($s, $w:'', $l:''){
+	@if $s == 60 {
+		font-size:60px;
+		font-weight:400;
+		line-height:80px;
+	} @else if $s == 44 {
+		font-size:44px;
+		font-weight:400;
+		line-height:56px;
+	} @else if $s == 36 {
+		font-size:36px;
+		font-weight:400;
+		line-height:48px;
+	} @else if $s == 30 {
+		font-size:30px;
+		font-weight:400;
+		line-height:42px;
+	} @else if $s == 24 {
+		font-size:24px;
+		font-weight:400;
+		line-height:36px;
+	} @else if $s == 20 {
+		font-size:20px;
+		font-weight:400;
+		line-height:32px;
+	} @else if $s == 18 {
+		font-size:18px;
+		font-weight:400;
+		line-height:28px;
+	} @else if $s == 16 {
+		font-size:16px;
+		font-weight:400;
+		line-height:24px;
+	} @else if $s == 14 {
+		font-size:14px;
+		font-weight:400;
+		line-height:24px;
+		@if $l == 20 {
+			line-height:20px;
+		}
+	} @else if $s == 13 {
+		font-size:13px;
+		font-weight:400;
+		line-height:20px;
+	} @else if $s == 12 {
+		font-size:12px;
+		font-weight:400;
+		line-height:18px;
+	} @else if $s == 11 {
+		font-size:11px;
+		font-weight:400;
+		line-height:16px;
+	} @else if $s == 10 {
+		font-size:10px;
+		font-weight:400;
+		line-height:16px;
+	}
+	@if $w == 'b' {
+		font-weight:700;
+	}
+	@if $w == 'l' {
+		font-weight:300;
+	}
+}
+
+@mixin svg($path, $size, $color) {
+	width:$size;height:$size;
+    mask-image:url($path);-webkit-mask-image:url($path);
+	background: {
+		color:$color;
+		size:$size auto;
+		repeat:no-repeat;
+	}
+}
